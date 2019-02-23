@@ -1,2 +1,17 @@
 @import "bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.pyramid {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    flex-flow: column wrap;
+    background: #000;
+
+    .pyrmaid-content {
+        font-size: 1.2em;
+        color: #333;
+        margin: 20px auto;
+    }
+}
